@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Life RPG</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Life RPG</h1>
+            <p>Level up your real life.</p>
+        </header>
+
+        <section class="player-card">
+
+            <div class="player-info">
+                <h2>Player</h2>
+                <p>Level <span id="level">1</span></p>
+            </div>
+
+            <div class="xp-section">
+                <p>XP: <span id="xp">0</span> / 100</p>
+
+                <div class="xp-bar">
+                    <div class="xp-progress"></div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="stats-section">
+
+            <h2>Your Stats</h2>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <h3>Energy</h3>
+                    <p><span id="energy">70</span>/100</p>
+
+                    <div class="stat-bar">
+                        <div class="stat-progress energy-progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <h3>Mood</h3>
+                    <p><span id="mood">60</span>/100</p>
+
+                    <div class="stat-bar">
+                        <div class="stat-progress mood-progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <h3>Study</h3>
+                    <p><span id="study">30</span>/100</p>
+
+                    <div class="stat-bar">
+                        <div class="stat-progress study-progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <h3>Fitness</h3>
+                    <p><span id="fitness">40</span>/100</p>
+
+                    <div class="stat-bar">
+                        <div class="stat-progress fitness-progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <h3>Social</h3>
+                    <p><span id="social">50</span>/100</p>
+
+                    <div class="stat-bar">
+                        <div class="stat-progress social-progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <h3>Money</h3>
+                    <p>$<span id="money">100</span></p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="activities-section">
+
+            <h2>Activities</h2>
+
+            <div class="activities">
+
+                <button id="study-button">
+                    Study
+                </button>
+
+                <button id="exercise-button">
+                    Exercise
+                </button>
+
+                <button id="social-button">
+                    Socialize
+                </button>
+
+                <button id="sleep-button">
+                    Sleep
+                </button>
+
+                <button id="rest-button">
+                    Rest
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="quests-section">
+
+            <h2>Daily Quests</h2>
+
+            <div class="quest">
+                <input type="checkbox" id="quest-study">
+                <label for="quest-study">
+                    Study for 1 hour
+                </label>
+            </div>
+
+            <div class="quest">
+                <input type="checkbox" id="quest-exercise">
+                <label for="quest-exercise">
+                    Exercise for 30 minutes
+                </label>
+            </div>
+
+            <div class="quest">
+                <input type="checkbox" id="quest-social">
+                <label for="quest-social">
+                    Talk to someone
+                </label>
+            </div>
+
+            <div class="quest">
+                <input type="checkbox" id="quest-sleep">
+                <label for="quest-sleep">
+                    Sleep before 1 AM
+                </label>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
